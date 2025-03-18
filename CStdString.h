@@ -462,7 +462,7 @@
 
 #ifndef SS_WIN32
   #ifndef MO_SS_WIN32
-    #if defined(_MSC_VER) || defined(__BORLANDC__) || defined(_WIN32) || defined(__MINGW32__) || defined(__MINGW64__)
+    #if defined(_MSC_VER) || defined(__BORLANDC__) || defined(_WIN32) || defined(__MINGW32__) || defined(__MINGW64__) || defined(__clang__)
       #define SS_WIN32
     #endif
   #endif
